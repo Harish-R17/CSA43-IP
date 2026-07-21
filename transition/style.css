@@ -1,0 +1,27 @@
+body {
+    font-family: Cambria;
+    font-size: 14px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+h1 {
+    color: blue;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    line-height: 200px;
+    margin: 50px auto;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+/* Transformation and Transition on Hover */
+.box:hover {
+    background-color: darkblue;
+    transform: rotate(15deg) scale(1.2);
+}
