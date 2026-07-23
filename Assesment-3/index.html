@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Standards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Modern Web Application</h1>
+
+        <!-- Semantic Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#video">Home</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#xml">XML</a></li>
+                <li><a href="#protocol">Protocol</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Video Section -->
+    <section id="video">
+        <h2>Promotional Video</h2>
+
+        <video width="600" controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="register">
+        <h2>User Registration</h2>
+
+        <form action="register.php" method="POST">
+            <label>Full Name:</label><br>
+            <input type="text" name="fullname" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label>Password:</label><br>
+            <input type="password" name="password" required><br><br>
+
+            <input type="submit" value="Register">
+        </form>
+    </section>
+
+    <!-- XML Example -->
+    <section id="xml">
+        <h2>Correct XML Syntax</h2>
+
+<pre>
+&lt;note&gt;
+    &lt;to&gt;User&lt;/to&gt;
+    &lt;from&gt;Admin&lt;/from&gt;
+&lt;/note&gt;
+</pre>
+
+    </section>
+
+    <!-- Protocol -->
+    <section id="protocol">
+        <h2>Web Communication Protocol</h2>
+
+        <p>
+            This webpage communicates using the
+            <strong>HTTP/HTTPS</strong> protocol between the browser and server.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Modern Web Application</p>
+    </footer>
+
+</body>
+</html>
